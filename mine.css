@@ -1,0 +1,24 @@
+.tile {
+  width: 20px;
+  height: 20px;
+  float: left;
+  text-align: center;
+  color: #ededed;
+  box-shadow:inset 1px 1px 0px 0px #ffffff;
+  background-color:#ededed;
+  border:1px solid #dcdcdc;
+}
+
+.tile.open {
+  background-color: lightgray;
+  box-shadow: none;
+}
+
+.mine.open {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}
+.open {
+  color: #00e;
+}
